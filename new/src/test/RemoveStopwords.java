@@ -15,7 +15,7 @@ public class RemoveStopwords
 	}
 	
 	
-	ArrayList<String> compareFilesnostop()
+	ArrayList<String> compareFilesNoStop()
 	{
 		ArrayList<String> Similarwords = new ArrayList<String>();
 		Similarwords.addAll(Commonwords);

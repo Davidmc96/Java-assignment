@@ -1,7 +1,5 @@
 package test;
-//SimpleFileChooser.java
-//A simple file chooser to see what it takes to make one of these work.
-//
+
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
@@ -27,8 +25,7 @@ public FilechooserGUI()
  JButton openButton = new JButton("Open");
  JButton saveButton = new JButton("Save");
  JButton dirButton = new JButton("Pick Dir");
- final JLabel statusbar = 
-              new JLabel("Output of your selection will go here");
+ final JLabel statusbar = new JLabel("Output of your selection will go here");
 
  // Create a file chooser that opens up as an Open dialog
  openButton.addActionListener(new ActionListener() {

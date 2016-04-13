@@ -16,17 +16,17 @@ public class Scan
 	}
 	
 	
-	ArrayList<String> Scanfile() throws FileNotFoundException
+	ArrayList<String> scanFile() throws FileNotFoundException
 	{
 		ArrayList<String> words = new ArrayList<String>();
-		Scanner sc = new Scanner (new File(this.file));
+		Scanner scanfile = new Scanner (new File(this.file));
 		
-		while (sc.hasNext()) 
+		while (scanfile.hasNext()) 
 		{
-		  words.add(sc.next());
+		  words.add(scanfile.next().toLowerCase());
 		}
 		
-		sc.close();
+		scanfile.close();
 		return words;
 	}
 }
